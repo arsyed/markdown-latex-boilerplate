@@ -31,7 +31,7 @@ BUILDNAME=dissertation
 # BUILDNAME=example-$(TIMESTAMP)
 OUTPUT_FOLDER=output
 CSL=chicago-author-date
-PANDOC_OPTIONS=--dpi=600 --latex-engine=xelatex --filter pandoc-tablenos --filter pandoc-fignos --filter pandoc-citeproc
+PANDOC_OPTIONS=--dpi=600 --pdf-engine=xelatex --filter pandoc-tablenos --filter pandoc-fignos --filter pandoc-citeproc
 # Optionally pass a different config file location on the command line
 # e.g., $ CFGFILE=myspecialconfig.txt make
 # _CONFIG.txt is the default configuration file

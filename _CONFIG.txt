@@ -6,6 +6,6 @@ DOCX_TEMPLATE=
 ODT_TEMPLATE=
 CSL=chicago-author-date
 
-PANDOC_OPTIONS=--dpi=600 --latex-engine=xelatex --filter pandoc-tablenos --filter pandoc-fignos --filter pandoc-citeproc
+PANDOC_OPTIONS=--dpi=600 --pdf-engine=xelatex --filter pandoc-tablenos --filter pandoc-fignos --filter pandoc-citeproc
 
 # vim: set ft=make:
